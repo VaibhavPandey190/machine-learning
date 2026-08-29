@@ -1,76 +1,76 @@
-# Machine Learning Portfolio
+# 🤖 Machine Learning Portfolio
 
-A practical collection of machine-learning notebooks, experiments, and projects covering data exploration, preprocessing, model training, evaluation, and prediction.
+> A practical portfolio of machine-learning projects and experiments by **Vaibhav Pandey**.
 
-## 📌 What You'll Find
+This repository brings together hands-on work across **data analysis, preprocessing, regression, clustering, model evaluation, and Python experimentation**. It is being organized as a single ML portfolio so related projects are easier to discover, understand, and extend.
 
-| Project / Notebook | Focus |
-|---|---|
-| **House Price Prediction** | Regression, feature preparation, training and prediction |
-| **Student Marks Prediction** | EDA, missing-value handling and Linear Regression |
-| **K-Means — Iris Dataset** | Unsupervised learning and clustering |
-| **IABAC Assignment** | Applied data analysis and ML practice |
-| **Python Assistants** | Python experimentation and automation |
+## 📌 Projects
 
-## 🧠 Machine Learning Workflow
+| Project | Type | Focus |
+|---|---|---|
+| 🏠 **House Price Prediction** | Regression | Property features, model training, prediction & persistence |
+| 🎓 **Student Marks Prediction** | Regression | EDA, missing values, Linear Regression & evaluation |
+| 🌸 **Iris K-Means** | Clustering | Unsupervised learning and cluster analysis |
+| 📊 **IABAC Assignment** | Applied ML | Data analysis and machine-learning practice |
+| 🐍 **Python Assistants** | Experimentation | Python automation and application experiments |
+
+## 🧠 Workflow
 
 ```text
-Data Collection → Cleaning → EDA → Feature Engineering
-                         ↓
-                 Train / Test Split
-                         ↓
-                 Model Training
-                         ↓
-              Evaluation → Prediction
-                         ↓
-                 Model Persistence
+Data Collection
+      ↓
+Data Cleaning & Preparation
+      ↓
+Exploratory Data Analysis
+      ↓
+Feature Engineering
+      ↓
+Train / Test Split
+      ↓
+Model Training
+      ↓
+Evaluation
+      ↓
+Prediction / Model Persistence
 ```
+
+## 🏠 Featured Project — House Price Prediction
+
+The House Price Prediction work demonstrates a practical regression workflow using property-related data. The original project includes the notebook, datasets, trained model artifact, feature metadata, and visual outputs.
+
+**Project documentation:** [House Price Prediction](projects/house-price-prediction/README.md)
+
+The former standalone House Prediction repository is being retained temporarily as a transition point while its assets are consolidated here.
 
 ## 🛠️ Technology Stack
 
-- **Language:** Python
-- **Data:** NumPy, Pandas, SciPy
-- **Machine Learning:** Scikit-learn, XGBoost, LightGBM
-- **Deep Learning:** TensorFlow, Keras, PyTorch
-- **Visualization:** Matplotlib, Seaborn, Plotly
-- **Development:** Jupyter Notebook, IPython
+**Programming:** `Python`  
+**Data:** `Pandas` `NumPy` `SciPy`  
+**Machine Learning:** `Scikit-learn` `XGBoost` `LightGBM`  
+**Visualization:** `Matplotlib` `Seaborn` `Plotly`  
+**Development:** `Jupyter Notebook` `IPython`  
+**Deep Learning:** `TensorFlow` `Keras` `PyTorch`
 
-## 📂 Current Repository Structure
+## 📂 Repository Structure
 
 ```text
 machine-learning/
-├── Assignment IABAC.ipynb
-├── House Price Prediction-checkpoint.ipynb
-├── KMeans practical(IRIS DATASET).ipynb
-├── PROJECT( STUDENT MARKS PREDICTION).ipynb
-├── myassistant.py
-├── myassistant2.py
-├── ROADMAP.md
+├── projects/
+│   ├── house-price-prediction/
+│   ├── student-marks-prediction/
+│   ├── iris-kmeans/
+│   └── iabac-assignment/
+│
+├── experiments/
+│   ├── myassistant.py
+│   └── myassistant2.py
+│
 ├── requirements.txt
+├── ROADMAP.md
 └── README.md
 ```
 
-> The repository contains both learning experiments and project work. The next cleanup phase will organize these into clear project directories and remove temporary notebook artifacts.
-
-## 🚀 Featured Work
-
-### 🏠 House Price Prediction
-
-A regression project for predicting house prices from property-related features. A more complete version currently exists in the dedicated **House-Prediction-** repository.
-
-### 🎓 Student Marks Prediction
-
-A regression exercise using study hours to predict student marks. The notebook covers data inspection, missing-value handling, train/test splitting, Linear Regression, prediction, and evaluation.
-
-### 🌸 K-Means — Iris Dataset
-
-An unsupervised-learning exercise exploring clustering with the classic Iris dataset.
-
-## 📈 Learning Roadmap
-
-The goal is to move progressively from notebook-based experiments toward clean, reproducible, testable, and deployable machine-learning projects.
-
-See **[ROADMAP.md](ROADMAP.md)** for the current direction.
+> The structure is being introduced progressively. Existing notebooks and project history are being preserved during the consolidation process.
 
 ## ▶️ Getting Started
 
@@ -81,15 +81,27 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-## 🎯 Planned Improvements
+## 🎯 Portfolio Direction
 
-- Organize projects into dedicated directories
-- Remove notebook checkpoints and temporary artifacts
-- Add dataset documentation and reproducible preprocessing
-- Add model evaluation metrics and visualizations
-- Convert selected notebooks into clean Python modules
-- Add tests and lightweight CI for production-oriented projects
+The goal is to evolve this repository from notebook-based learning into **clean, reproducible, testable, and deployable ML projects**.
+
+Planned areas include:
+
+- Supervised and unsupervised learning
+- Feature engineering and model selection
+- Model evaluation and explainability
+- NLP and deep learning
+- REST API model deployment
+- Docker and cloud deployment
+- Model versioning and monitoring
+- AI and intelligent automation
+
+## 🔗 Author
+
+**Vaibhav Pandey** — Senior Software Engineer | Backend & API Development | Python | Perl | SQL | Agile | AI/ML
+
+[GitHub Profile](https://github.com/VaibhavPandey190) · [LinkedIn](https://www.linkedin.com/in/vaibhav-pandey-69750a194/)
 
 ---
 
-**Built as a practical machine-learning learning and project portfolio.**
+⭐ Built as a practical portfolio for continuous learning, experimentation, and real-world machine-learning engineering.
