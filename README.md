@@ -1,25 +1,24 @@
-# 🤖 Machine Learning Portfolio
+# Machine Learning Portfolio
 
-> A practical portfolio of machine-learning projects and experiments by **Vaibhav Pandey**.
+A practical collection of machine-learning projects and experiments by **Vaibhav Pandey**, focused on turning data into useful predictions and understanding the complete ML workflow.
 
-This repository brings together hands-on work across **data analysis, preprocessing, regression, clustering, model evaluation, and Python experimentation**. It is being organized as a single ML portfolio so related projects are easier to discover, understand, and extend.
+> This repository is part of my broader software-engineering journey, with a focus on **Python, backend/API development, data, AI and machine learning**.
 
-## 📌 Projects
+## 🚀 Featured Projects
 
-| Project | Type | Focus |
+| Project | Type | What it demonstrates |
 |---|---|---|
-| 🏠 **House Price Prediction** | Regression | Property features, model training, prediction & persistence |
-| 🎓 **Student Marks Prediction** | Regression | EDA, missing values, Linear Regression & evaluation |
-| 🌸 **Iris K-Means** | Clustering | Unsupervised learning and cluster analysis |
-| 📊 **IABAC Assignment** | Applied ML | Data analysis and machine-learning practice |
-| 🐍 **Python Assistants** | Experimentation | Python automation and application experiments |
+| 🏠 [House Price Prediction](projects/house-price-prediction/) | Regression | Data cleaning, feature engineering, categorical encoding, model training and prediction |
+| 🎓 Student Marks Prediction | Regression | EDA, missing-value handling, train/test split and Linear Regression |
+| 🌸 Iris K-Means | Unsupervised ML | Clustering and practical K-Means experimentation |
+| 📊 IABAC Assignment | Applied ML | Data analysis and machine-learning practice |
 
-## 🧠 Workflow
+## 🧠 ML Workflow
 
 ```text
 Data Collection
       ↓
-Data Cleaning & Preparation
+Data Cleaning & Validation
       ↓
 Exploratory Data Analysis
       ↓
@@ -31,46 +30,42 @@ Model Training
       ↓
 Evaluation
       ↓
-Prediction / Model Persistence
+Prediction
+      ↓
+Model Persistence / Deployment
 ```
-
-## 🏠 Featured Project — House Price Prediction
-
-The House Price Prediction work demonstrates a practical regression workflow using property-related data. The original project includes the notebook, datasets, trained model artifact, feature metadata, and visual outputs.
-
-**Project documentation:** [House Price Prediction](projects/house-price-prediction/README.md)
-
-The former standalone House Prediction repository is being retained temporarily as a transition point while its assets are consolidated here.
 
 ## 🛠️ Technology Stack
 
-**Programming:** `Python`  
-**Data:** `Pandas` `NumPy` `SciPy`  
-**Machine Learning:** `Scikit-learn` `XGBoost` `LightGBM`  
-**Visualization:** `Matplotlib` `Seaborn` `Plotly`  
-**Development:** `Jupyter Notebook` `IPython`  
-**Deep Learning:** `TensorFlow` `Keras` `PyTorch`
+**Programming:** Python  
+**Data:** Pandas, NumPy, SciPy  
+**Machine Learning:** Scikit-learn, XGBoost, LightGBM  
+**Deep Learning:** TensorFlow, Keras, PyTorch  
+**Visualization:** Matplotlib, Seaborn, Plotly  
+**Development:** Jupyter Notebook, Git, GitHub
 
 ## 📂 Repository Structure
 
 ```text
 machine-learning/
 ├── projects/
-│   ├── house-price-prediction/
-│   ├── student-marks-prediction/
-│   ├── iris-kmeans/
-│   └── iabac-assignment/
-│
-├── experiments/
-│   ├── myassistant.py
-│   └── myassistant2.py
-│
-├── requirements.txt
+│   └── house-price-prediction/
+│       └── README.md
+├── Assignment IABAC.ipynb
+├── KMeans practical(IRIS DATASET).ipynb
+├── PROJECT( STUDENT MARKS PREDICTION).ipynb
+├── myassistant.py
+├── myassistant2.py
 ├── ROADMAP.md
+├── requirements.txt
 └── README.md
 ```
 
-> The structure is being introduced progressively. Existing notebooks and project history are being preserved during the consolidation process.
+The repository is being progressively organized so that the strongest projects have clear documentation and a reproducible structure.
+
+## 🎯 Current Direction
+
+The goal is to move from notebook-based learning toward **clean, reproducible and deployable ML applications** — including APIs, testing, model persistence, monitoring and cloud deployment.
 
 ## ▶️ Getting Started
 
@@ -81,27 +76,10 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-## 🎯 Portfolio Direction
+## 🔗 Professional Profile
 
-The goal is to evolve this repository from notebook-based learning into **clean, reproducible, testable, and deployable ML projects**.
-
-Planned areas include:
-
-- Supervised and unsupervised learning
-- Feature engineering and model selection
-- Model evaluation and explainability
-- NLP and deep learning
-- REST API model deployment
-- Docker and cloud deployment
-- Model versioning and monitoring
-- AI and intelligent automation
-
-## 🔗 Author
-
-**Vaibhav Pandey** — Senior Software Engineer | Backend & API Development | Python | Perl | SQL | Agile | AI/ML
-
-[GitHub Profile](https://github.com/VaibhavPandey190) · [LinkedIn](https://www.linkedin.com/in/vaibhav-pandey-69750a194/)
+For my software-engineering background and professional experience, visit my [GitHub profile](https://github.com/VaibhavPandey190) and [LinkedIn profile](https://www.linkedin.com/in/vaibhav-pandey-69750a194/).
 
 ---
 
-⭐ Built as a practical portfolio for continuous learning, experimentation, and real-world machine-learning engineering.
+**Software Engineering • Backend & APIs • Python • Perl • SQL • AI/ML**
